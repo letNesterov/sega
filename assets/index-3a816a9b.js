@@ -213,4 +213,4 @@ Error generating stack: `+l.message+`
 `,c0=Z.h1`
   font-size: 3rem;
   text-align: center;
-`,f0=({onNextPage:e})=>I.jsxs(u0,{children:[I.jsx(c0,{children:"С днем рождения сергунья!"}),I.jsx(a0,{onClick:e,children:"🍺"})]}),d0=()=>{const[e,t]=J.useState(!1),n=()=>{t(!0)};return I.jsx(Nm,{children:e?I.jsx(i0,{}):I.jsx(f0,{onNextPage:n})})};Kl.createRoot(document.getElementById("root")).render(I.jsx(Cn.StrictMode,{children:I.jsx(d0,{})}));
+`,f0=({onNextPage:e})=>I.jsxs(u0,{children:[I.jsx(c0,{children:"С днем рождения Cергунья!"}),I.jsx(a0,{onClick:e,children:"🍺"})]}),d0=()=>{const[e,t]=J.useState(!1),n=()=>{t(!0)};return I.jsx(Nm,{children:e?I.jsx(i0,{}):I.jsx(f0,{onNextPage:n})})};Kl.createRoot(document.getElementById("root")).render(I.jsx(Cn.StrictMode,{children:I.jsx(d0,{})}));
