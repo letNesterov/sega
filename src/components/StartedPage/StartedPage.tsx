@@ -5,7 +5,7 @@ import { EmojiWrapper, StartPageTitle, StartedPageWrapper } from "./styled";
 export const StartedPage: FC<IStartedPageProps> = ({ onNextPage }) => {
   return (
     <StartedPageWrapper>
-      <StartPageTitle>С днем рождения сергунья!</StartPageTitle>
+      <StartPageTitle>С днем рождения Cергунья!</StartPageTitle>
 
       <EmojiWrapper onClick={onNextPage}>🍺</EmojiWrapper>
     </StartedPageWrapper>

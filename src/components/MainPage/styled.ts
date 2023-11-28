@@ -12,7 +12,10 @@ export const RoadMapMainPageWrapper = styled.div<{ $isModalOpen: boolean }>`
   height: 100%;
 `;
 
-export const RoadMapBlockWrapper = styled.div<{ id: number }>`
+export const RoadMapBlockWrapper = styled.div<{
+  id: number;
+  $isClicked: boolean;
+}>`
   width: 100%;
   display: flex;
   z-index: 9999;
@@ -24,8 +27,13 @@ export const RoadMapBlockWrapper = styled.div<{ id: number }>`
     width: 6rem;
     height: 6rem;
     object-fit: cover;
-
     border-radius: 50%;
+    border: 0.25rem solid
+      ${({ $isClicked }) => ($isClicked ? "grey" : "transparent")};
+    background-image: linear-gradient(white, white),
+      linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
 
     cursor: pointer;
   }
